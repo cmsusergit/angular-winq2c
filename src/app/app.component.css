@@ -1,3 +1,23 @@
-p {
+*,p {
   font-family: Lato;
+}
+.header{
+  background-color: beige;
+  height:100%;
+  width:100%;
+  border-bottom: 1px solid saddlebrown;
+  padding:1em;
+}
+.sidebar{
+
+
+  color: indigo;
+  padding-left:1em;
+}
+
+.maincontent{
+  background-color: floralwhite;
+  color:rgb(10, 10, 50);
+  height:100vh;
+  border-left:1px solid saddlebrown;
 }

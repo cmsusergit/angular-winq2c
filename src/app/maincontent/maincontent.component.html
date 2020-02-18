@@ -1,0 +1,23 @@
+<div class="pl-2">
+	<h5>List</h5>
+
+</div>
+<div>
+	<table class="table table-bordered">
+		<thead>
+			<th>Sr.</th>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Download</th>
+		</thead>
+
+		<tr *ngFor="let b1 of bList">
+			<td>{{b1.id}}</td>
+			<td>{{b1.title}}</td>
+			<td>{{b1.author}}</td>
+			<td>
+        <a [href]="b1.path">Download</a>
+      </td>
+		</tr>
+	</table>
+</div>
