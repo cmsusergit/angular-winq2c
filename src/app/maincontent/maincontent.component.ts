@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
+  
   selector: 'maincontent',
   templateUrl: './maincontent.component.html',
   styleUrls: ['./maincontent.component.css']
@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class MaincontentComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
 
