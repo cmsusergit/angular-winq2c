@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { Test1Component } from './test1/test1.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
+import { BdetailComponent } from './bdetail/bdetail.component';
 @NgModule({
   imports:      [ BrowserModule, 
   NgbModule,
@@ -15,7 +16,8 @@ import { MaincontentComponent } from './maincontent/maincontent.component';
     AppComponent, 
     HelloComponent, 
     MaincontentComponent,
-    Test1Component ],
+    Test1Component,
+    BdetailComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
